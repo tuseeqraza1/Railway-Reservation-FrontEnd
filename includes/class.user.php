@@ -13,9 +13,6 @@
 		
 		public function reg_user($full_name,$mobile_no,$emial_id,$cnic_no,$city,$password)
 		{
-			//echo "k";
-			// $password = md5($password);
-
 			//checking if the username or email is available in db
 			$query = "SELECT * FROM user_details WHERE mobile_no='$mobile_no' OR emial_id = '$emial_id'";
 			$result = $this->db->query($query) or die($this->db->error);
