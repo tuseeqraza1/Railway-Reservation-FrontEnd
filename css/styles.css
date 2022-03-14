@@ -1,0 +1,126 @@
+
+.side_logos {
+    height: 3em;
+    width: 3em;
+}
+
+.nav > ul > li > a {
+    margin: 15px;
+}
+
+.nav > li > a > img {
+    border-radius: 100%;    
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-nav > li{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+
+.base-footer {
+    color: white;
+    list-style: none;
+    margin: 5em 5em 5em 5em;
+    border-radius: 0.5em;
+}
+
+.group > ul > li > a {
+    list-style: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.links > div > ul > li > a, .links > div > ul > li > a:hover {
+    list-style: none;
+    color: #2f720a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.profile {
+    list-style: none;
+    border-style: 1px solid darkgreen;
+}
+
+.side-bar-images {
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px; 
+    border-top: 4px solid #ffe800; 
+    border-bottom: 4px solid #ffe800; 
+    border-radius: 2px;
+}
+
+.side-bar-images > div {
+    margin-top: 20px !important;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    color: #2f720a;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 4px solid #ffe800;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.destinations .badge {
+    background-color: transparent;
+    color: #797d88;
+    font-size: 12px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.text-right {
+    text-align: center; 
+    padding-top: 0.4em;
+}
+
+
+.tableAlign >tr>th, .tableAlign >tr>td  {
+    text-align: center !important; 
+    vertical-align: middle !important;
+}
+
+ 
+@media only screen and (max-width: 990px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .group > ul {
+        justify-content: center;
+        display: flex;
+    }
+
+    .side-bar-images {
+        display: none;
+    }
+
+    .destinations {
+        display: block;
+        text-align: center;
+        margin: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-right {
+        text-align: left !important;
+    }
+
+  }
