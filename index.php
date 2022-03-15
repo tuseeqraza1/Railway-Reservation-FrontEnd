@@ -1,7 +1,3 @@
-<?php 
-    include 'includes/user.login.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

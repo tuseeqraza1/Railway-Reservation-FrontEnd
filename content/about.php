@@ -4,7 +4,7 @@
             <h3 class="heading">About Pakistan Railways</h3>
             <div class="row">
                 <div class="col-md-12 text-justify">
-                    <img src="images/logo.png" class="float-left" style="width:200px; padding:10px" alt="logo">
+                    <img src="images/Pakistan_Railways_Logo.png" class="float-left" style="width:350px; padding:10px" alt="logo">
                     <p>Pakistan Railways provide an important mode of Transportation in the farthest corners of the country and 
                         brings them closer for Business, sight seeing, pilgrimage and education. It has been a great integrating 
                         force and forms the life line of the country by catering to its needs for large scale movement of people 
