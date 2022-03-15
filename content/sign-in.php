@@ -1,7 +1,7 @@
 <div>
     <div id="container" class="container-fluid">
         <h3 class="heading">LOGIN TO YOUR PAKISTAN RAILWAYS PASSENGER ACCOUNT</h3>
-        <form action="includes/user.login.php" method="post" name="login">
+        <form action="" method="post" name="login">
             <table class="table">
                 <tr>
                     <th>Mobile No:</th>

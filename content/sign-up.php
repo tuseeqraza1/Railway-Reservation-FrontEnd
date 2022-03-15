@@ -2,7 +2,7 @@
     <div id="container" class="container-fluid">
         <h3 class="heading">Registration Here</h3>
         
-        <form action="includes/user.signup.php" method="post" name="reg">
+        <form action="" method="post" name="reg">
             <table class="table">
             <tr>
                 <th>Full Name <span style="color: red">*</span> :</th>
